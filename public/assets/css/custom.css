@@ -1,0 +1,17 @@
+/*
+Custom Css
+*/
+.custom-style{
+    height: 80px;
+}
+.custom-style-1{
+    margin-top: 40px;
+}
+.carousel-item{
+    background-image: url("../public/assets/img/main-banner.jpg");
+    background-repeat: no-repeat;
+    height: 600px;
+}
+.custom-style-3{
+    font-size: 30px;
+}

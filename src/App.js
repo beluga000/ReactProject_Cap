@@ -1,24 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
-
+import {Fragment} from "react";
+import {BrowserRouter as Router,Route,Switch} from "react-router-dom"
+import Header from "./components/main/Header";
+import Footer from "./components/main/Footer";
+import Home from "./components/main/Home";
+import capList from "./components/cap/CapList";
+import CapList from "./components/cap/CapList";
+import CapDetail from "./components/cap/CapDetail";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+  <Router>
+    <Fragment>
+      <Header/>
+      <Switch>
+        <Route exact path={"/"} component={Home}/>
+        <Route path={"/cap/cap_list"} component={CapList}/>
+        <Route path={"/cap/cap_detail/:no"} component={CapDetail}/>
+      </Switch>
+      <Footer/>
+    </Fragment>
+  </Router>
   );
 }
 
