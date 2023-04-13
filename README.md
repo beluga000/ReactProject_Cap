@@ -1,7 +1,7 @@
 # React 개인 프로젝트 : Cap
 
 
-<img width="248" alt="메인화면" src="https://user-images.githubusercontent.com/113018906/231683027-be9cdcd7-a172-4cb8-955d-eedc71936bd2.png">
+<img width="500" alt="메인화면" src="https://user-images.githubusercontent.com/113018906/231683027-be9cdcd7-a172-4cb8-955d-eedc71936bd2.png">
 
 
 ## 주요 기능
